@@ -7,7 +7,6 @@
 - **Dataset:** `models/learning_dataset.json` maps skills + levels to curated learning resources.
 
 ## Text Architecture Diagram
-```
 [User]
   -> [React Upload Page]
   -> POST /upload-resume, /upload-jd
@@ -18,8 +17,6 @@
       -> AdaptiveRoadmapEngine (dependency-aware ordering)
   <- JSON response (skills, gaps, roadmap, reasoning, score)
   -> [React Dashboard Page]
-```
-
 ## Scalability Notes
 - Parser and model services are stateless and can be horizontally scaled.
 - In-memory state can be swapped for SQLite or Redis for multi-user support.

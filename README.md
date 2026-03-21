@@ -33,6 +33,7 @@ AI-Onboarding-Engine/
 ├── backend/
 │   ├── app.py
 │   ├── requirements.txt
+│   ├── requirements-spacy.txt
 │   ├── routes.py
 │   ├── services/
 │   └── utils/
@@ -42,7 +43,6 @@ AI-Onboarding-Engine/
 ├── models/
 ├── docs/
 ├── Dockerfile
-├── requirements.txt
 └── README.md
 
 ## Render Deployment Notes
@@ -84,12 +84,11 @@ AI-Onboarding-Engine/
 ## Setup
 ### Backend
 ```bash
-cd AI-Onboarding-Engine
+cd AI-Onboarding-Engine/backend
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-uvicorn backend.app:app --reload
-``` bash
+uvicorn app:app --reload
 ```
 ### Frontend
 ```bash
