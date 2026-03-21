@@ -32,6 +32,7 @@ Instead of giving every new hire the same training, this system:
 AI-Onboarding-Engine/
 ├── backend/
 │   ├── app.py
+│   ├── requirements.txt
 │   ├── routes.py
 │   ├── services/
 │   └── utils/
@@ -43,6 +44,18 @@ AI-Onboarding-Engine/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+
+## Render Deployment Notes
+
+### Backend service (Render Web Service)
+- Root Directory: `backend`
+- Build Command: `pip install -r requirements.txt`
+- Start Command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+
+### Frontend service (Render Static Site)
+- Root Directory: `frontend`
+- Build Command: `npm install && npm run build`
+- Publish Directory: `dist`
 ## Tech Stack
 
 **Frontend**

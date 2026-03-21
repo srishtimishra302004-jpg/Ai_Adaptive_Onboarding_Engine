@@ -1,12 +1,21 @@
 from fastapi import APIRouter, File, UploadFile
 from pydantic import BaseModel
 
-from backend.services.gap_analyzer import GapAnalyzer
-from backend.services.jd_parser import JDParser
-from backend.services.learning_path_generator import LearningPathGenerator
-from backend.services.resume_parser import ResumeParser
-from backend.services.skill_extractor import SkillExtractor
-from backend.utils.file_handler import extract_text
+try:
+    from backend.services.gap_analyzer import GapAnalyzer
+    from backend.services.jd_parser import JDParser
+    from backend.services.learning_path_generator import LearningPathGenerator
+    from backend.services.resume_parser import ResumeParser
+    from backend.services.skill_extractor import SkillExtractor
+    from backend.utils.file_handler import extract_text
+except ModuleNotFoundError:
+    # Supports running from backend/ with: uvicorn app:app
+    from services.gap_analyzer import GapAnalyzer
+    from services.jd_parser import JDParser
+    from services.learning_path_generator import LearningPathGenerator
+    from services.resume_parser import ResumeParser
+    from services.skill_extractor import SkillExtractor
+    from utils.file_handler import extract_text
 
 router = APIRouter()
 

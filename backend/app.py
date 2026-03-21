@@ -1,7 +1,19 @@
+import sys
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.routes import router
+# Ensure project root is importable when running from backend/ (uvicorn app:app).
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+try:
+    from backend.routes import router
+except ModuleNotFoundError:
+    # Supports running from backend/ with: uvicorn app:app
+    from routes import router
 
 
 app = FastAPI(
