@@ -93,6 +93,7 @@ uvicorn app:app --reload
 ```
 ### Frontend
 ```bash
+https://ai-onboarding-engine.vercel.app/
 cd AI-Onboarding-Engine/frontend
 npm install
 npm run dev
