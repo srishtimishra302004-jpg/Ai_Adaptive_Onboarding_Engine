@@ -95,22 +95,21 @@ Frontend runs on `http://localhost:5173` and backend on `http://localhost:8000`.
 ## Response Format
 ```json
 {
-  "scores": {
-    "resume_score": 0,
-    "similarity_score": 0,
-    "ats_score": 0,
-    "confidence_score": 0
-  },
-  "skills": {
-    "matched": [],
-    "missing": [],
-    "partial": []
-  },
-  "experience_level": "",
-  "skill_strength": {},
-  "skill_gap_analysis": "",
-  "learning_roadmap": [],
-  "reasoning_trace": ""
+  "user_skills": [],
+  "required_skills": [],
+  "skill_gap": [],
+  "learning_path": [
+    {
+      "skill": "",
+      "level": "",
+      "resources": []
+    }
+  ],
+  "recommendations": [],
+  "resume_score": 0,
+  "similarity_score": 0.0,
+  "reasoning": "Explanation of recommendations",
+  "missing_skill_explanation": ""
 }
 ```
 
