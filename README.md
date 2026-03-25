@@ -9,7 +9,7 @@ The goal is simple:
 Instead of giving every new hire the same training, this system:
 - Understands what the candidate already knows  
 - Compares it with job requirements  
-- Identifies missing or weak areas  
+- Identifies missing or weak areas
 - Generates a structured learning path  
 - Explains *why* those recommendations were mad
 
