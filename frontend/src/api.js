@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://aiadaptiveonboardingengine-production.up.railway.app",
+  baseURL: "http://localhost:8000",
 });
 
 export async function uploadResume(file) {
@@ -25,5 +25,10 @@ export async function analyzeText(resumeText, jdText, careerGoal) {
     resume_text: resumeText,
     jd_text: jdText,
     career_goal: careerGoal,
-  });
+  }
+export async function analyze(careerGoal) {
+  console.log("API called 🚀", careerGoal);
+
+  return api.post("/analyze", { career_goal: careerGoal });
+});
 }
