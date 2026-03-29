@@ -1,0 +1,3 @@
+We are hiring an AI Engineer with strong Python, Machine Learning, NLP, SQL, and FastAPI skills.
+Candidate should have experience deploying scalable services with Docker and AWS.
+Looking for someone who can optimize deep learning pipelines and mentor junior engineers.

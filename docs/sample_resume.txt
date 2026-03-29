@@ -1,0 +1,4 @@
+Senior software engineer with 4+ years building Python and FastAPI services.
+Built ML model pipelines for customer churn analysis and deployed APIs with Docker and AWS.
+Implemented SQL optimization and data analysis workflows.
+Integrated NLP features into production chat systems.

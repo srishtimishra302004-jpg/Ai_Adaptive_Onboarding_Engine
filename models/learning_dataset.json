@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "Python",
+    "level": "beginner",
+    "resources": [
+      "https://www.learnpython.org/",
+      "https://docs.python.org/3/tutorial/"
+    ]
+  },
+  {
+    "skill": "Python",
+    "level": "advanced",
+    "resources": [
+      "https://realpython.com/",
+      "https://effectivepython.com/"
+    ]
+  },
+  {
+    "skill": "Machine Learning",
+    "level": "beginner",
+    "resources": [
+      "https://www.coursera.org/learn/machine-learning",
+      "https://developers.google.com/machine-learning/crash-course"
+    ]
+  },
+  {
+    "skill": "Machine Learning",
+    "level": "advanced",
+    "resources": [
+      "https://www.deeplearning.ai/courses/machine-learning-specialization/",
+      "https://paperswithcode.com/"
+    ]
+  },
+  {
+    "skill": "SQL",
+    "level": "intermediate",
+    "resources": [
+      "https://mode.com/sql-tutorial/",
+      "https://leetcode.com/problemset/database/"
+    ]
+  },
+  {
+    "skill": "FastAPI",
+    "level": "intermediate",
+    "resources": [
+      "https://fastapi.tiangolo.com/tutorial/",
+      "https://testdriven.io/courses/tdd-fastapi/"
+    ]
+  },
+  {
+    "skill": "React",
+    "level": "intermediate",
+    "resources": [
+      "https://react.dev/learn",
+      "https://frontendmasters.com/"
+    ]
+  },
+  {
+    "skill": "NLP",
+    "level": "advanced",
+    "resources": [
+      "https://huggingface.co/learn",
+      "https://spacy.io/usage"
+    ]
+  },
+  {
+    "skill": "AWS",
+    "level": "intermediate",
+    "resources": [
+      "https://aws.amazon.com/training/",
+      "https://explore.skillbuilder.aws/learn"
+    ]
+  },
+  {
+    "skill": "CRM",
+    "level": "intermediate",
+    "resources": [
+      "https://trailhead.salesforce.com/",
+      "https://www.hubspot.com/resources"
+    ]
+  },
+  {
+    "skill": "People Analytics",
+    "level": "intermediate",
+    "resources": [
+      "https://www.coursera.org/learn/people-analytics",
+      "https://www.aihr.com/blog/people-analytics/"
+    ]
+  },
+  {
+    "skill": "CAD",
+    "level": "intermediate",
+    "resources": [
+      "https://www.autodesk.com/learning",
+      "https://www.solidworks.com/support/training"
+    ]
+  }
+]
