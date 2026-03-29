@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://aiadaptiveonboardingengine-production.up.railway.app",
+  baseURL: "https://aiadaptiveonboardingengine-production.up.railway.app",
 });
 
 export async function uploadResume(file) {
