@@ -2,7 +2,6 @@ import sys
 import os
 from pathlib import Path
 
-# Ensure repo root is on sys.path so `backend` and `models` are importable
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -32,3 +31,8 @@ def root():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("backend.app:app", host="0.0.0.0", port=8000)
