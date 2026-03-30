@@ -35,7 +35,8 @@ This project highlights teamwork, problem-solving, and real-world AI application
    - Reasoning insights
 
 ## Folder Structure
-``` AI_ADAPTIVE_ENGINE/
+```
+AI_ADAPTIVE_ENGINE/
 │
 ├── backend/
 │   ├── services/
@@ -76,18 +77,24 @@ This project highlights teamwork, problem-solving, and real-world AI application
 - Rule-based skill extraction + normalization
 
 ## Architecture Diagram 
-```[React Frontend]
+```
+[React Frontend]
+
     -> upload resume/JD
     -> trigger /analyze
 ```
-```[FastAPI Backend]
+```
+[FastAPI Backend]
+
     -> parse text
     -> extract skills + levels
     -> run semantic + gap analysis
     -> generate adaptive roadmap
     -> return reasoning JSON
 ```
-```[Dashboard]
+```
+[Dashboard]
+
     -> score, gap, chart, roadmap, recommendations, reasoning trace
 ```
     
