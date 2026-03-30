@@ -110,8 +110,8 @@ pip install -r requirements.txt
 
 ## Deployment
  Live Project Link:
-👉 https://aiadaptiveonboardingengine-production.up.railway.app/ (Backend)
 👉 https://ai-adaptive-onboarding-engine-kappa.vercel.app?_vercel_share=NnIumuOUUcJkucg0uAEukEdhOO1oXnuI (Frontend)
+👉 https://aiadaptiveonboardingengine-production.up.railway.app/ (Backend)
 
 ## Future Enhancements
 - Integration with LLM
