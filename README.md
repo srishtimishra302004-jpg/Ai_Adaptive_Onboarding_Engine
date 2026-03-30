@@ -132,8 +132,8 @@ AI_ADAPTIVE_ENGINE/
 ## Acknowledgment
 Special thanks to all team members for their collaboration and contribution in making this project successful.
 ### Team Members: 
-- Srishti Mishra
 - Narottam Kumar
 - Siddharth Karn
 - Ankit Kumar
+- Srishti Mishra
 
