@@ -88,16 +88,16 @@ AI_ADAPTIVE_ENGINE/
     -> score, gap, chart, roadmap, recommendations, reasoning trace
     
 ## How to Run Locally
-1️⃣ Clone the Repository
+- 1️⃣ Clone the Repository
 git clone - https://github.com/srishtimishra302004-jpg/Ai_Adaptive_Onboarding_Engine
 cd AI-Adaptive-Onboarding-Engine
-2️⃣ Backend Setup
+- 2️⃣ Backend Setup
 cd ~/Downloads/Ai_adaptive_engine
 pip install -r requirements.txt
 uvicorn backend.app:app --host 0.0.0.0 --port 8000 --reload
 Backend will run on:
 👉 http://127.0.0.1:8000
-3️⃣ Frontend Setup
+- 3️⃣ Frontend Setup
 cd ~/Downloads/Ai_adaptive_engine/frontend
 npm install
 npm run dev
