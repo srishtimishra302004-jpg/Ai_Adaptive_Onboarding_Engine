@@ -56,17 +56,18 @@ Must build end-to-end ML systems, monitor reliability, and deliver measurable bu
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-10">
-      <h1 className="text-3xl font-bold text-slate-900">AI Adaptive Onboarding Engine</h1>
-      <p className="mt-2 text-slate-600">Upload your resume and target job description to get a personalized roadmap.</p>
-
-      <div className="mt-8 rounded-xl bg-white p-6 shadow">
-        <label className="mb-2 block text-sm font-medium text-slate-700">Resume (PDF/TXT)</label>
+      <h1 className="text-4xl font-bold text-slate-600 dark:text-slate-300">OnboardIQ</h1>
+     <p className="text-slate-600 dark:text-slate-300">
+     AI-powered personalized onboarding system
+      </p>
+      <div className="mt-8 rounded-xl bg-white dark:bg-slate-800 p-6 shadow">
+        <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-300">Resume (PDF/TXT)</label>
         <input className="mb-5 block w-full" type="file" onChange={(e) => setResume(e.target.files?.[0])} />
 
-        <label className="mb-2 block text-sm font-medium text-slate-700">Job Description (PDF/TXT)</label>
+        <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-300">Job Description (PDF/TXT)</label>
         <input className="mb-5 block w-full" type="file" onChange={(e) => setJd(e.target.files?.[0])} />
 
-        <label className="mb-2 block text-sm font-medium text-slate-700">Career Goal</label>
+        <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-300">Career Goal</label>
         <input
           className="mb-5 w-full rounded-lg border border-slate-300 px-3 py-2"
           value={goal}
@@ -89,6 +90,9 @@ Must build end-to-end ML systems, monitor reliability, and deliver measurable bu
             ✨ Try Demo (Auto-fill + Analyze)
           </button>
         </div>
+        <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
+  Upload your resume and target job description to get a personalized roadmap.
+</p>
 
         {status && <p className="mt-4 text-sm text-slate-700">{status}</p>}
       </div>
