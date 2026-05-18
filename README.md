@@ -32,7 +32,7 @@ Built with scalable frontend and backend architecture for smooth performance.
 ## 🤖 AI-Based Logic  
 Implements intelligent algorithms for resume analysis and recommendation generation.  
 
-## 🤝 Team Collaboration  
+# 🤝 Team Collaboration  
 Developed collaboratively with contributions across:  
 - Frontend development  
 - Backend API development  
@@ -151,8 +151,7 @@ http://localhost:5173
 
 # 👥 Team Contribution  
 
-This project was developed collaboratively where team members contributed in: 
-Team Members :
+This project was developed collaboratively where team members are: 
 ##### Srishti Mishra
 ##### Narottam Kumar
 ##### Ankit Kumar
