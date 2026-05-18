@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.routes import router
 
-app = FastAPI(title="AI Adaptive Onboarding Engine", version="1.0.0")
+app = FastAPI(title="AI Based Resume Skill Gap Analyzer", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
